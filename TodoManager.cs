@@ -9,12 +9,7 @@ namespace TodoApp
 
         public void AddTodo(string title, string description)
         {
-            var todo = new TodoItem
-            {
-                Title = title,
-                Description = description,
-                IsCompleted = false
-            };
+            var todo = new TodoItem(title, description);
             todos.Add(todo);
         }
 
