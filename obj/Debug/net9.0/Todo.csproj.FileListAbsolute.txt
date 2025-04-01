@@ -12,3 +12,8 @@ d:\CSharp\Todo\obj\Debug\net9.0\refint\Todo.dll
 d:\CSharp\Todo\obj\Debug\net9.0\Todo.pdb
 d:\CSharp\Todo\obj\Debug\net9.0\Todo.genruntimeconfig.cache
 d:\CSharp\Todo\obj\Debug\net9.0\ref\Todo.dll
+D:\CSharp\Todo\obj\Debug\net9.0\Todo.sourcelink.json
+D:\CSharp\Todo\bin\Debug\net9.0\ConsoleTables.dll
+D:\CSharp\Todo\bin\Debug\net9.0\Wcwidth.dll
+D:\CSharp\Todo\obj\Debug\net9.0\Todo.csproj.AssemblyReference.cache
+D:\CSharp\Todo\obj\Debug\net9.0\Todo.csproj.Up2Date

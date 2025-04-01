@@ -1,4 +1,5 @@
 using System;
+using ConsoleTables;
 
 namespace TodoApp
 {
@@ -37,13 +38,16 @@ namespace TodoApp
             //     Console.WriteLine($"{status} {todo.Title}");
             //     Console.WriteLine($"   Description: {todo.Description}");
             // }
+            var table = new ConsoleTable("Todo#", "Status", "Title", "Description");
             for (int i = 0; i < todos.Count; i++)
             {
                 string status = todos[i].IsCompleted ? "[✓]" : "[ ]";
-                System.Console.WriteLine($"Todo#: {i + 1}");
-                Console.WriteLine($"{status} {todos[i].Title}");
-                Console.WriteLine($"   Description: {todos[i].Description}");
+                table.AddRow(i + 1, status, todos[i].Title, todos[i].Description);
+                // System.Console.WriteLine($"Todo#: {i + 1}");
+                // Console.WriteLine($"{status} {todos[i].Title}");
+                // Console.WriteLine($"   Description: {todos[i].Description}");
             }
+            table.Write();
             Console.WriteLine("-------------\n");
         }
 
